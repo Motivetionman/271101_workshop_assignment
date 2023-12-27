@@ -66,6 +66,7 @@ while True:
 
     cv2.putText(img, str(int(Nfing)), (10, 70), cv2.FONT_HERSHEY_PLAIN, 3,
                 (255, 0, 255), 3)
+    cv2.putText(img, "Nutpakun_660610821", (200, 450), cv2.FONT_HERSHEY_PLAIN, 1.6, (156, 246, 139), 3)
     cv2.imshow("Image", img)
     cv2.waitKey(1)
 #Closeing all open windows
